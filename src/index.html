@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>decco</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="../dist/css/app.css" /> -->
+  </head>
+  <body class="bg-white px-0 font-rubik">
+    <header
+    class="w-full justify-center items-center text-[#2D2D2D] mt-[-12px] hidden sm:flex"
+    >
+      <div class="w-full shadow-xl">
+        <a href="./index.html">
+          <div class="h-[61px]">
+            <img class="h-full" src="../assets/img/logo.png" />
+          </div>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="bg-cover min-h-[600px] rounded-b-3xl mt-8 mx-5">
+          <nav aria-label="breadcrumb" class="-intro-x mr-auto hidden sm:flex">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item text-[#848484]">
+                <a href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item text-[#848484]">
+                <a href="#">Configurator</a>
+              </li>
+              <li class="breadcrumb-item text-[#848484]">
+                <a href="#">Choose your window</a>
+              </li>
+              <li class="breadcrumb-item text-[#848484]">
+                <a href="#">Window configurator</a>
+              </li>
+              <!-- <li
+                class="breadcrumb-item active text-[#848484]"
+                aria-current="page"
+              >
+                Dashboard
+              </li> -->
+            </ol>
+          </nav>
+          <p class="mt-6 text-center sm:text-left text-2xl">
+            <span class="sm:text-[46px] font-bold text-[#FFA011]">Configure</span>
+            <span class="sm:text-[46px] font-normal"
+              >&nbsp;your Single-Hung Window</span
+            >
+          </p>
+          <div class="mt-8 w-full gap-8 sm:flex">
+            <div class="min-w-[280px] w-[350px] rounded-sm text-base h-fit sm:shadow-xl mx-auto">
+              <div
+                class="w-full bg-[#404040] rounded-t-[3px] text-white text-lg items-center h-[43px] px-4 font-semibold hidden sm:flex"
+              >
+                YOUR CONFIGURATION
+              </div>
+              <div class="w-full bg-white text-[#333333]">
+                <div class="mx-4 mt-6 mb-6 font-normal text-sm">
+                  <img src="../assets/img/window1.svg" class="w-3/4 mx-auto border-black border-[1px] sm:border-[0px] sm:w-full" />
+                  <div
+                    class="justify-center items-center text-white flex gap-4 mt-3"
+                  >
+                    <button class="btn w-full bg-[#FFA011] rounded font-[14px]">
+                      interior view
+                    </button>
+                    <button class="btn w-full bg-[#FFA011] rounded font-[14px]">
+                      Extorior view
+                    </button>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Quantity:</p>
+                    <p class="text-right w-1/2">1</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Height:</p>
+                    <p class="text-right w-1/2">45 1/2"</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Width:</p>
+                    <p class="text-right w-1/2">31 1/2"</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Construction color:</p>
+                    <p class="text-right w-1/2">Beige (+ $9)</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Window fittings color:</p>
+                    <p class="text-right w-1/2">Beige (+ $9)</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Comfort stop:</p>
+                    <p class="text-right w-1/2">Yes</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Glass package:</p>
+                    <p class="text-right w-1/2">Low emission</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Gallons:</p>
+                    <p class="text-right w-1/2">Lack</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Window screen:</p>
+                    <p class="text-right w-1/2">Yes (+ $3)</p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2">Instalation option:</p>
+                    <p class="text-right w-1/2">New construction</p>
+                  </div>
+                  <div class="hidden border-t border-[#BDBDBD] mt-3 sm:flex"></div>
+                  <div class="hidden mt-3 sm:flex">
+                    <p class="w-1/2 text-2xl text-[#333333] font-bold">
+                      Price:
+                    </p>
+                    <p
+                      class="text-right w-1/2 text-2xl text-[#333333] font-bold"
+                    >
+                      222,00 zł
+                    </p>
+                  </div>
+                  <div class="hidden mt-3 sm:flex text-white">
+                    <button
+                      class="btn bg-[#FFA011] w-full mb-2 rounded py-3 font-semibold"
+                    >
+                      Go to summary
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- content part -->
+            <div class="flex-1">
+              <div class="text-base h-fit shadow-xl">
+                <div class="w-full">
+                  <div class="w-full rounded-t-[3px] bg-[#cbcbcb] sm:bg-[#404040] sm:text-white">
+                    <div
+                      class="w-full h-[43px] flex justify-start items-center px-4 font-semibold text-lg text-[#333333] sm:text-white"
+                    >
+                      SIZE
+                    </div>
+                  </div>
+                  <div
+                    class="w-full h-[121px] bg-white h-30 grid grid-cols-12 text-[#333333] gap-1"
+                  >
+                    <div class="col-span-6 sm:col-span-4 px-4 py-6">
+                      <label
+                        for="regular-form-1"
+                        class="form-label font-medium text-sm"
+                        >Width</label
+                      >
+                      <input
+                        id="regular-form-1"
+                        type="text"
+                        class="form-control"
+                        placeholder="Input text"
+                        value="31 1/2"
+                      />
+                    </div>
+                    <div class="col-span-6 sm:col-span-4 px-4 py-6">
+                      <label
+                        for="regular-form-1"
+                        class="form-label font-medium text-sm"
+                        >Height</label
+                      >
+                      <input
+                        id="regular-form-1"
+                        type="text"
+                        class="form-control"
+                        placeholder="Input text"
+                        value="45 1/2"
+                      />
+                    </div>
+                    <div class="sm:col-span-4 px-4 py-6 hidden sm:block">
+                      <label
+                        for="regular-form-1"
+                        class="form-label font-medium text-sm"
+                        >Quantity</label
+                      >
+                      <input
+                        id="regular-form-1"
+                        type="text"
+                        class="form-control"
+                        placeholder="Input text"
+                        value="1"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-base h-fit shadow-xl mt-[42px]">
+                <div class="w-full">
+                  <div class="w-full text-white rounded-t-[3px] bg-[#cbcbcb] sm:bg-[#404040] sm:text-white">
+                    <div
+                      class="w-full h-[43px] flex justify-start items-center px-4 font-semibold text-lg text-[#333333] sm:text-white"
+                    >
+                      CONSTRUCTION COLOR
+                    </div>
+                  </div>
+                  <div class="w-full bg-white h-30 flex text-[#333333]">
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-0 sm:p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm relative h-full"
+                        onclick="clickAddRemove()"
+                      >
+                        <img
+                          src="../assets/img/check.svg"
+                          id="check1"
+                          class="w-[27px] absolute top-[-15px] right-[-15px] hidden"
+                        ></img>
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px] border-black border-[1px] sm:border-0"
+                        />
+                        <p class="font-bold text-sm justify-center sm:justify-start flex pt-2">White</p>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-0 sm:p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px] border-black border-[1px] sm:border-0"
+                        />
+                        <p class="font-bold text-sm justify-center sm:justify-start flex py-2">Beige</p>
+                        <button
+                          class="btn w-full h-[35px] sm:h-[29px] bg-[#404040] sm:bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-0 sm:p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window4.svg"
+                          class="w-[161px] border-black border-[1px] sm:border-0"
+                        />
+                        <p class="font-bold text-sm justify-center sm:justify-start flex py-2">Black</p>
+                        <button
+                          class="btn w-full h-[35px] sm:h-[29px] bg-[#404040] sm:bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-base h-fit shadow-xl mt-[42px]">
+                <div class="w-full">
+                  <div class="w-full bg-[#404040] text-white rounded-t-[3px] bg-[#cbcbcb] sm:bg-[#404040] sm:text-white">
+                    <div
+                      class="w-full h-[43px] flex justify-start items-center px-4 font-semibold text-lg text-[#333333] sm:text-white"
+                    >
+                      WINDOW FITTINGS COLOR
+                    </div>
+                  </div>
+                  <div class="w-full bg-white h-30 flex text-[#333333]">
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-0 sm:p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm relative h-full"
+                      >
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px] border-black border-[1px] sm:border-0"
+                        />
+                        <p class="font-bold text-sm justify-center sm:justify-start flex pb-9 pt-2">White</p>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-0 sm:p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm relative h-full"
+                      >
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px] border-black border-[1px] sm:border-0"
+                        />
+                        <p class="font-bold text-sm justify-center sm:justify-start flex py-2">Beige</p>
+                        <button
+                        class="btn w-full h-[35px] sm:h-[29px] bg-[#404040] sm:bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-0 sm:p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm relative h-full"
+                      >
+                        <img
+                          src="../assets/img/window4.svg"
+                          class="w-[161px] border-black border-[1px] sm:border-0"
+                        />
+                        <p class="font-bold text-sm justify-center sm:justify-start flex py-2">Black</p>
+                        <button
+                        class="btn w-full h-[35px] sm:h-[29px] bg-[#404040] sm:bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-base h-fit shadow-xl mt-[42px]">
+                <div class="w-full">
+                  <div class="w-full bg-[#404040] text-white rounded-t-[3px] bg-[#cbcbcb] sm:bg-[#404040] sm:text-white">
+                    <div
+                      class="w-full h-[43px] flex justify-start items-center px-4 font-semibold text-lg text-[#333333] sm:text-white"
+                    >
+                      COMFORT STOP
+                    </div>
+                  </div>
+                  <div class="w-full bg-white h-30 flex text-[#333333]">
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window7.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-9">Yes</p>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-9">No</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-base h-fit shadow-xl mt-[42px]">
+                <div class="w-full">
+                  <div class="w-full bg-[#404040] text-white rounded-t-[3px]">
+                    <div
+                      class="w-full h-[43px] flex justify-between items-center px-4 font-semibold text-lg"
+                    >
+                      GLASS PACKAGE
+                    </div>
+                  </div>
+                  <div class="w-full bg-white h-30 grid grid-cols-3 sm:flex text-[#333333]">
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window6.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-9">Low emission</p>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-2">
+                          One side hardened
+                        </p>
+                        <button
+                          class="btn w-full h-[29px] bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-2">
+                          Hardened on both sides
+                        </p>
+                        <button
+                          class="btn w-full h-[29px] bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-2">
+                          Laminated glass
+                        </p>
+                        <button
+                          class="btn w-full h-[29px] bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window5.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-2">Selective</p>
+                        <button
+                          class="btn w-full h-[29px] bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex p-4 pt-2 bg-white text-[#333333]">
+                    <span class="font-medium text-sm">Details</span>
+                    <span class="font-normal text-sm pl-1">
+                      and description of the selected option - Lorem ipsum dolor
+                      sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua.
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-base h-fit shadow-xl mt-[42px]">
+                <div class="w-full">
+                  <div class="w-full bg-[#404040] text-white rounded-t-[3px]">
+                    <div
+                      class="w-full h-[43px] flex justify-between items-center px-4 font-semibold text-lg"
+                    >
+                      GALLONS
+                    </div>
+                  </div>
+                  <div class="w-full bg-white h-30 flex text-[#333333]">
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/window6.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-9">None</p>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/traditional.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-2">Traditional</p>
+                        <button
+                          class="btn w-full h-[29px] bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img src="../assets/img/toprow.svg" class="w-[161px]" />
+                        <p class="font-bold text-sm pt-2 pb-2">Toprow</p>
+                        <button
+                          class="btn w-full h-[29px] bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-base h-fit shadow-xl mt-[42px]">
+                <div class="w-full">
+                  <div class="w-full bg-[#404040] text-white rounded-t-[3px]">
+                    <div
+                      class="w-full h-[43px] flex justify-between items-center px-4 font-semibold"
+                    >
+                      WINDOW SCREEN
+                    </div>
+                  </div>
+                  <div class="w-full bg-white h-30 flex text-[#333333]">
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img src="../assets/img/Yes.svg" class="w-[161px]" />
+                        <p class="font-bold text-sm pt-2 pb-2">Yes</p>
+                        <button
+                          class="btn w-full h-[29px] bg-[#FFA011] text-white rounded font-[14px]"
+                        >
+                          + $9
+                        </button>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img src="../assets/img/No.svg" class="w-[161px]" />
+                        <p class="font-bold text-sm pt-2 pb-9">No</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-base h-fit shadow-xl mt-[42px]">
+                <div class="w-full">
+                  <div class="w-full bg-[#404040] text-white rounded-t-[3px]">
+                    <div
+                      class="w-full h-[43px] flex justify-between items-center px-4 font-semibold text-lg"
+                    >
+                      INSTALLATION OPTION
+                    </div>
+                  </div>
+                  <div class="w-full bg-white h-30 flex text-[#333333]">
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/New construction.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-9">
+                          New construction
+                        </p>
+                      </div>
+                    </div>
+                    <div class="p-5 px-2">
+                      <div
+                        class="p-2 shadow-xl border-[3px] border-white hover:border-[3px] hover:border-[#2F80ED] rounded-sm"
+                      >
+                        <img
+                          src="../assets/img/Replacement.svg"
+                          class="w-[161px]"
+                        />
+                        <p class="font-bold text-sm pt-2 pb-9">Replacement</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-base h-fit shadow-xl mt-[42px] mb-[30px]">
+                <div class="w-full">
+                  <div class="w-full bg-[#404040] text-white rounded-t-[3px]">
+                    <div
+                      class="w-full h-[43px] flex justify-between items-center px-4 font-semibold text-lg"
+                    >
+                      SPECIAL PROFILE
+                    </div>
+                  </div>
+                  <div class="w-full bg-white h-30 flex text-[#333333]">
+                    <div class="p-5 px-2">
+                      <button
+                        class="btn w-full bg-[#FFA011] text-white rounded text-base font-semibold p-4 mt-2"
+                      >
+                        Add a special profile
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+<script>
+  var status = -1;
+  function clickAddRemove() {
+    status *= -1;
+    if(status == 1){
+      var element = document.getElementById("check1");
+      element.classList.add("flex");
+      element.classList.remove("hidden");
+    }else{
+      var element = document.getElementById("check1");
+      element.classList.add("hidden");
+      element.classList.remove("flex");
+    }
+  }
+  </script>

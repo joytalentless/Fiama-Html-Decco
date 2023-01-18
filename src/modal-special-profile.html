@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>decco</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="../dist/css/app.css" /> -->
+  </head>
+  <body class="font-rubik">
+    <main>
+      <section>
+        <div class="w-[700px] m-auto shadow-md p-6 rounded-lg bg-white">
+          <div class="flex justify-between items-center">
+            <p class="font-bold text-[24px]">Special profile</p>
+            <img src="../assets/img/multi.svg" />
+          </div>
+          <div class="flex justify-start items-end gap-4 mt-5">
+            <div>
+              <label
+                for="regular-form-1"
+                class="form-label font-semibold text-[16px]"
+                >Select a profile</label
+              >
+              <input
+                id="regular-form-1"
+                type="text"
+                class="form-control"
+                placeholder="Input text"
+                value="XYZ SPECIAL PROFILE"
+              />
+            </div>
+            <div>
+              <label
+                for="regular-form-1"
+                class="form-label font-semibold text-[16px]"
+                >Length</label
+              >
+              <input
+                id="regular-form-1"
+                type="text"
+                class="form-control"
+                placeholder="Input text"
+                value="0"
+              />
+            </div>
+            <div>
+              <label class="form-label font-semibold text-[16px]">Color</label>
+              <select class="form-select" aria-label="Default select example">
+                <option>white</option>
+                <option>gray</option>
+              </select>
+            </div>
+            <div class="flex justify-between items-center gap-4">
+              <button
+                class="w-2 h-9 px-4 bg-[#FFA011] rounded text-white text-2xl font-thin justify-center items-center flex"
+              >
+                -
+              </button>
+              <p class="text-[20px] font-semibold">5</p>
+              <button
+                class="w-2 h-9 px-4 bg-[#FFA011] rounded text-white text-2xl font-thin justify-center items-center flex"
+              >
+                +
+              </button>
+              <img src="../assets/img/trash.svg" />
+            </div>
+          </div>
+          <button
+            class="w-[150px] h-[40px] rounded bg-[#FFA011] text-white mt-4"
+          >
+            Add special profile
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

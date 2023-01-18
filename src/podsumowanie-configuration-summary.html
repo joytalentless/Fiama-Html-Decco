@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>decco</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="../dist/css/app.css" /> -->
+  </head>
+  <body class="bg-white px-0 font-rubik relative">
+    <header
+      class="w-full justify-center items-center text-[#2D2D2D] mt-[-12px]"
+    >
+      <div class="w-full shadow-xl">
+        <a href="./index.html">
+          <div class="h-[61px]">
+            <img class="h-full" src="../assets/img/logo.png" />
+          </div>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="bg-cover min-h-[600px] mt-8 mx-6">
+          <nav
+            aria-label="breadcrumb"
+            class="-intro-x mr-auto text-[12px] sm:text-[14px] font-medium"
+          >
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item text-[#848484]">
+                <a href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item text-[#848484]">
+                <a href="#">Konfigurator</a>
+              </li>
+              <li class="breadcrumb-item text-[#848484]">
+                <a href="#">Window type</a>
+              </li>
+              <li class="breadcrumb-item text-[#848484]">
+                <a href="#">Window configurator</a>
+              </li>
+              <!-- <li
+                class="breadcrumb-item active text-[#848484]"
+                aria-current="page"
+              >
+                Dashboard
+              </li> -->
+            </ol>
+          </nav>
+          <!-- Configuration summary title -->
+          <p class="text-left text-[23px] mt-6">
+            <span class="sm:text-[36px] md:text-[46px] font-bold text-[#FFA011]"
+              >Configuration</span
+            >
+            <span class="sm:text-[36px] md:text-[46px] font-normal"
+              >&nbsp;Summary</span
+            >
+          </p>
+          <div
+            class="w-full grid grid-cols-1 md:grid-cols-2 mt-4 gap-1 md:gap-12"
+          >
+            <div class="col-span-1">
+              <!-- YOUR CONFIGURATION WINDOW_0 -->
+              <div class="w-full shadow-lg">
+                <!-- title -->
+                <div
+                  class="w-full bg-[#404040] h-[58px] mt-4 rounded-t-[3px] flex justify-between items-center px-4"
+                >
+                  <p class="text-[18px] font-normal text-[#FFFFFF]">
+                    YOUR CONFIGURATION
+                    <span class="font-semibold">WINDOW_0</span>
+                  </p>
+                  <div class="flex justify-start text-[#FFA011]">
+                    <button class="flex justify-center items-center gap-1">
+                      <p>Details</p>
+                      <img src="../assets/img/chevron-down-y.svg" />
+                    </button>
+                  </div>
+                </div>
+                <!-- content -->
+                <div class="w-full p-4">
+                  <div class="w-full block sm:flex justify-between gap-6">
+                    <div
+                      class="max-w-[200px] sm:max-w-[262px] w-full m-auto sm:m-0"
+                    >
+                      <img src="../assets/img/window1.svg" />
+                    </div>
+                    <div class="w-full">
+                      <div class="w-full flex justify-between mt-4 sm:mt-0">
+                        <p>Height:</p>
+                        <p>31 1/2"</p>
+                      </div>
+                      <div class="w-full flex justify-between mt-4">
+                        <p>Width:</p>
+                        <p>45 1/2"</p>
+                      </div>
+                      <div class="w-full flex justify-between mt-4">
+                        <p>Unit price:</p>
+                        <p>999,99 zł</p>
+                      </div>
+                      <div class="w-full sm:w-[129px] mt-4">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option>10</option>
+                          <option>20</option>
+                        </select>
+                      </div>
+                      <div class="w-full mt-4">
+                        <button
+                          class="btn w-full h-[40px] rounded bg-[#FFA011] text-white"
+                          id="open"
+                        >
+                          Add special profile
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- YOUR CONFIGURATION WINDOW_2 -->
+              <div class="w-full shadow-lg mt-6">
+                <!-- title -->
+                <div
+                  class="w-full bg-[#404040] h-[58px] mt-4 rounded-t-[3px] flex justify-between items-center px-4"
+                >
+                  <p class="text-[18px] font-normal text-[#FFFFFF]">
+                    YOUR CONFIGURATION
+                    <span class="font-semibold">WINDOW_2</span>
+                  </p>
+                  <div class="flex justify-start text-[#FFA011]">
+                    <button class="flex justify-center items-center gap-1">
+                      <p>Details</p>
+                      <img src="../assets/img/chevron-down-y.svg" />
+                    </button>
+                  </div>
+                </div>
+                <!-- content -->
+                <div class="w-full p-4">
+                  <div class="w-full block sm:flex justify-between gap-6">
+                    <div
+                      class="max-w-[200px] sm:max-w-[262px] w-full m-auto sm:m-0"
+                    >
+                      <img src="../assets/img/window1.svg" />
+                    </div>
+                    <div class="w-full">
+                      <div class="w-full flex justify-between mt-4 sm:mt-0">
+                        <p>Height:</p>
+                        <p>31 1/2"</p>
+                      </div>
+                      <div class="w-full flex justify-between mt-4">
+                        <p>Width:</p>
+                        <p>45 1/2"</p>
+                      </div>
+                      <div class="w-full flex justify-between mt-4">
+                        <p>Unit price:</p>
+                        <p>999,99 zł</p>
+                      </div>
+                      <div class="w-[129px] mt-4">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option>10</option>
+                          <option>20</option>
+                        </select>
+                      </div>
+                      <div class="w-full mt-4">
+                        <button
+                          class="btn w-full h-[40px] rounded bg-[#FFA011] text-white"
+                          id="open_2"
+                        >
+                          Add special profile
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- YOUR CONFIGURATION WINDOW_3 -->
+              <div class="w-full shadow-lg mt-6">
+                <!-- title -->
+                <div
+                  class="w-full bg-[#404040] h-[58px] mt-4 rounded-t-[3px] flex justify-between items-center px-4"
+                >
+                  <p class="text-[18px] font-normal text-[#FFFFFF]">
+                    YOUR CONFIGURATION
+                    <span class="font-semibold">WINDOW_3</span>
+                  </p>
+                  <div class="flex justify-start text-[#FFA011]">
+                    <button class="flex justify-center items-center gap-1">
+                      <p>Details</p>
+                      <img src="../assets/img/chevron-down-y.svg" />
+                    </button>
+                  </div>
+                </div>
+                <!-- content -->
+                <div class="w-full p-4">
+                  <div class="w-full block sm:flex justify-between gap-6">
+                    <div
+                      class="max-w-[200px] sm:max-w-[262px] w-full m-auto sm:m-0"
+                    >
+                      <img src="../assets/img/window1.svg" />
+                    </div>
+                    <div class="w-full">
+                      <div class="w-full flex justify-between mt-4 sm:mt-0">
+                        <p>Height:</p>
+                        <p>31 1/2"</p>
+                      </div>
+                      <div class="w-full flex justify-between mt-4">
+                        <p>Width:</p>
+                        <p>45 1/2"</p>
+                      </div>
+                      <div class="w-full flex justify-between mt-4">
+                        <p>Unit price:</p>
+                        <p>999,99 zł</p>
+                      </div>
+                      <div class="w-[129px] mt-4">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option>10</option>
+                          <option>20</option>
+                        </select>
+                      </div>
+                      <div class="w-full mt-4">
+                        <button
+                          class="btn w-full h-[40px] rounded bg-[#FFA011] text-white"
+                          id="open_3"
+                        >
+                          Add special profile
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- YOUR CONFIGURATION WINDOW_4 -->
+              <div class="w-full shadow-lg mt-6">
+                <!-- title -->
+                <div
+                  class="w-full bg-[#404040] h-[58px] mt-4 rounded-t-[3px] flex justify-between items-center px-4"
+                >
+                  <p class="text-[18px] font-normal text-[#FFFFFF]">
+                    YOUR CONFIGURATION
+                    <span class="font-semibold">WINDOW_4</span>
+                  </p>
+                  <div class="flex justify-start text-[#FFA011]">
+                    <button class="flex justify-center items-center gap-1">
+                      <p>Details</p>
+                      <img src="../assets/img/chevron-down-y.svg" />
+                    </button>
+                  </div>
+                </div>
+                <!-- content -->
+                <div class="w-full p-4">
+                  <div class="w-full block sm:flex justify-between gap-6">
+                    <div
+                      class="max-w-[200px] sm:max-w-[262px] w-full m-auto sm:m-0"
+                    >
+                      <img src="../assets/img/window1.svg" />
+                    </div>
+                    <div class="w-full">
+                      <div class="w-full flex justify-between mt-4 sm:mt-0">
+                        <p>Height:</p>
+                        <p>31 1/2"</p>
+                      </div>
+                      <div class="w-full flex justify-between mt-4">
+                        <p>Width:</p>
+                        <p>45 1/2"</p>
+                      </div>
+                      <div class="w-full flex justify-between mt-4">
+                        <p>Unit price:</p>
+                        <p>999,99 zł</p>
+                      </div>
+                      <div class="w-[129px] mt-4">
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                        >
+                          <option>10</option>
+                          <option>20</option>
+                        </select>
+                      </div>
+                      <div class="w-full mt-4">
+                        <button
+                          class="btn w-full h-[40px] rounded bg-[#FFA011] text-white"
+                          id="open_4"
+                        >
+                          Add special profile
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-1">
+              <!-- title & content -->
+              <div class="w-full shadow-lg">
+                <!-- title -->
+                <div
+                  class="w-full bg-[#404040] h-[58px] mt-4 rounded-t-[3px] flex justify-between items-center px-4"
+                >
+                  <p class="text-[18px] font-normal text-[#FFFFFF]">
+                    <span class="font-semibold">PODSUMOWANIE</span>
+                  </p>
+                </div>
+                <!-- content -->
+                <div class="w-full p-4">
+                  <div class="w-full block sm:flex justify-between item-center">
+                    <p>
+                      <span class="font-semibold">PATIO DOOR (10 PIECES)</span>
+                    </p>
+                    <p class="mt-3 sm:mt-0">999,99 zł</p>
+                  </div>
+                  <div
+                    class="w-full block sm:flex justify-between item-center mt-4"
+                  >
+                    <p>
+                      <span>SPECIAL PROFILE_1</span>
+                    </p>
+                    <p class="mt-3 sm:mt-0">999,99 zł</p>
+                  </div>
+                  <div class="border-t border-1 border-[#BDBDBD] mt-4"></div>
+                  <div
+                    class="w-full block sm:flex justify-between item-center mt-4"
+                  >
+                    <p>
+                      <span class="font-semibold">PATIO DOOR (10 PIECES)</span>
+                    </p>
+                    <p class="mt-3 sm:mt-0">999,99 zł</p>
+                  </div>
+                  <div
+                    class="w-full block sm:flex justify-between item-center mt-4"
+                  >
+                    <p>
+                      <span>SPECIAL PROFILE_7</span>
+                    </p>
+                    <p class="mt-3 sm:mt-0">999,99 zł</p>
+                  </div>
+                  <div class="border-t border-1 border-[#BDBDBD] mt-4"></div>
+                  <div
+                    class="w-full block sm:flex justify-between item-center mt-4"
+                  >
+                    <p>
+                      <span class="font-semibold">WINDOW_1 (5 pieces)</span>
+                    </p>
+                    <p class="mt-3 sm:mt-0">5555,55 zł</p>
+                  </div>
+                  <div class="border-t border-1 border-[#BDBDBD] mt-4"></div>
+                  <div
+                    class="w-full block sm:flex justify-between item-center mt-4"
+                  >
+                    <p>
+                      <span class="font-semibold">WINDOW_2 (5 pieces)</span>
+                    </p>
+                    <p class="mt-3 sm:mt-0">5555,55 zł</p>
+                  </div>
+                  <div class="border-t border-1 border-[#BDBDBD] mt-4"></div>
+                  <div
+                    class="w-full block sm:flex justify-between item-center mt-4"
+                  >
+                    <p>
+                      <span class="font-semibold">WINDOW_3 (5 pieces)</span>
+                    </p>
+                    <p class="mt-3 sm:mt-0">555,55 zł</p>
+                  </div>
+                  <div class="border-t border-1 border-[#BDBDBD] mt-4"></div>
+                  <div class="w-full flex justify-between item-center mt-4">
+                    <p class="text-2xl text-[#333333] font-bold">Price:</p>
+                    <p class="text-2xl text-[#333333] font-bold">2222,00 $</p>
+                  </div>
+                  <div class="border-t border-1 border-[#BDBDBD] mt-4"></div>
+                  <div class="w-full flex justify-between items-end gap-4 mt-4">
+                    <button
+                      class="btn w-full h-[40px] rounded bg-[#FFA011] text-white"
+                    >
+                      Calculate delivery costs
+                    </button>
+                  </div>
+                  <div class="w-full flex justify-between items-end gap-4 mt-4">
+                    <button
+                      class="btn w-full h-[40px] rounded bg-[#FFA011] text-white"
+                      id="open_AC"
+                    >
+                      Add costs
+                    </button>
+                  </div>
+                  <div class="w-full flex justify-between items-end gap-4 mt-4">
+                    <button
+                      class="btn w-full h-[40px] rounded bg-[#404040] text-white"
+                    >
+                      Add another productZobacz wycenę (PDF)
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- PDF button -->
+              <div class="w-full">
+                <button
+                  class="btn w-full h-[40px] rounded bg-[#FFA011] text-white"
+                  id="open_CP"
+                >
+                  Add another product
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Overlay element -->
+        <div
+          id="overlay"
+          class="fixed hidden z-40 w-screen h-screen inset-0 bg-gray-900 bg-opacity-60"
+        ></div>
+
+        <!-- The dialog for Additional costs -->
+        <div
+          class="fixed z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[382px] md:w-[750px] bg-white rounded-md px-8 py-6 space-y-5 drop-shadow-lg hidden"
+          id="dialog_AC"
+        >
+          <div class="flex justify-between items-center">
+            <p class="font-bold text-[24px]">Additional costs</p>
+            <button id="close_AC">
+              <img src="../assets/img/multi.svg" />
+            </button>
+          </div>
+          <div class="block md:flex">
+            <div class="w-full flex justify-start items-end gap-4">
+              <div>
+                <label
+                  for="regular-form-1"
+                  class="form-label font-semibold text-[16px]"
+                  >Enter a Name</label
+                >
+                <input
+                  id="regular-form-1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Input text"
+                  value="XYZ SPECIAL PROFILE"
+                />
+              </div>
+              <div>
+                <label
+                  for="regular-form-1"
+                  class="form-label font-semibold text-[16px]"
+                  >Price</label
+                >
+                <input
+                  id="regular-form-1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Input text"
+                  value="1000$"
+                />
+              </div>
+            </div>
+            <div class="w-full flex justify-start items-end gap-4 mt-4 md:mt-0">
+              <div>
+                <label class="form-label font-semibold text-[16px]"
+                  >Currency</label
+                >
+                <div class="form-check">
+                  <input
+                    id="checkbox-switch-1"
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                  />
+                  <label class="form-check-label" for="checkbox-switch-1"
+                    >$</label
+                  >
+                </div>
+                <div class="form-check -mt-[1px]">
+                  <input
+                    id="checkbox-switch-2"
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                  />
+                  <label class="form-check-label" for="checkbox-switch-2"
+                    >%</label
+                  >
+                </div>
+              </div>
+              <div>
+                <label class="form-label font-semibold text-[16px]"
+                  >show as</label
+                >
+                <div class="form-check">
+                  <input
+                    id="checkbox-switch-1"
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                  />
+                  <label class="form-check-label" for="checkbox-switch-1"
+                    >Add to the price of each window</label
+                  >
+                </div>
+                <div class="form-check -mt-[1px]">
+                  <input
+                    id="checkbox-switch-2"
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                  />
+                  <label class="form-check-label" for="checkbox-switch-2"
+                    >Show in offer</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="w-full md:w-[150px] h-[40px] rounded bg-[#FFA011] text-white mt-4"
+          >
+            Add special profile
+          </button>
+          <div class="flex justify-end gap-4">
+            <button
+              class="w-[150px] h-[40px] rounded bg-[#404040] text-white"
+              id="cancel_AC"
+            >
+              Cancel
+            </button>
+            <button class="w-[150px] h-[40px] rounded bg-[#FFA011] text-white">
+              Save
+            </button>
+          </div>
+        </div>
+        <!-- The dialog for Copy your product -->
+        <div
+          class="fixed z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[382px] sm:w-[700px] md:w-[764px] bg-white rounded-md px-6 py-6 space-y-5 drop-shadow-lg hidden"
+          id="dialog_CP"
+        >
+          <div class="flex justify-between items-center">
+            <p class="font-bold text-[24px]">Copy your product</p>
+            <button id="close_CP">
+              <img src="../assets/img/multi.svg" />
+            </button>
+          </div>
+          <div class="font-medium text-[16px] mt-4">
+            Utwórz nowe okno na podstawie wybranego:
+          </div>
+          <div class="w-full h-[640px] overflow-scroll gap-4 sm:gap-0">
+            <div
+              class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 sm:gap-10 md:gap-4 mt-[26px]"
+            >
+              <div class="max-w-[260px] w-full col-span-1">
+                <div
+                  class="shadow-xl border-[3px] border-transparent hover:border-[#2F80ED] rounded-sm"
+                >
+                  <div class="pb-4">
+                    <img src="../assets/img/window3.svg" class="w-full" />
+                    <p class="font-bold text-[14px] py-2 flex">Double-Hung</p>
+                  </div>
+                </div>
+              </div>
+              <div class="max-w-[260px] w-full col-span-1">
+                <div
+                  class="shadow-xl border-[3px] border-transparent hover:border-[#2F80ED] rounded-sm"
+                >
+                  <div class="pb-4">
+                    <img src="../assets/img/window8.svg" class="w-full" />
+                    <p class="font-bold text-[14px] py-2 flex">Single-Hung</p>
+                  </div>
+                </div>
+              </div>
+              <div class="max-w-[260px] w-full col-span-1">
+                <div
+                  class="shadow-xl border-[3px] border-transparent hover:border-[#2F80ED] rounded-sm"
+                >
+                  <div class="pb-4">
+                    <img src="../assets/img/window5.svg" class="w-full" />
+                    <p class="font-bold text-[14px] py-2 flex">Patior door</p>
+                  </div>
+                </div>
+              </div>
+              <div class="max-w-[260px] w-full col-span-1">
+                <div
+                  class="shadow-xl border-[3px] border-transparent hover:border-[#2F80ED] rounded-sm"
+                >
+                  <div class="pb-4">
+                    <img src="../assets/img/window4.svg" class="w-full" />
+                    <p class="font-bold text-[14px] py-2 flex">Patior door</p>
+                  </div>
+                </div>
+              </div>
+              <div class="max-w-[260px] w-full col-span-1">
+                <div
+                  class="shadow-xl border-[3px] border-transparent hover:border-[#2F80ED] rounded-sm"
+                >
+                  <div class="pb-4">
+                    <img src="../assets/img/window8.svg" class="w-full" />
+                    <p class="font-bold text-[14px] py-2 flex">Casement</p>
+                  </div>
+                </div>
+              </div>
+              <div class="max-w-[260px] w-full col-span-1">
+                <div
+                  class="shadow-xl border-[3px] border-transparent hover:border-[#2F80ED] rounded-sm"
+                >
+                  <div class="pb-4">
+                    <img src="../assets/img/window2.svg" class="w-full" />
+                    <p class="font-bold text-[14px] py-2 flex">Awning</p>
+                  </div>
+                </div>
+              </div>
+              <div class="max-w-[260px] w-full col-span-1">
+                <div
+                  class="shadow-xl border-[3px] border-transparent hover:border-[#2F80ED] rounded-sm"
+                >
+                  <div class="pb-4">
+                    <img src="../assets/img/window3.svg" class="w-full" />
+                    <p class="font-bold text-[14px] py-2 flex">
+                      Picture Window
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex justify-between sm:gap-4 sm:justify-end items-center mt-6"
+          >
+            <button
+              class="w-[150px] h-[40px] rounded bg-[#404040] text-white mt-4"
+              id="cancel_CP"
+            >
+              Cancel
+            </button>
+            <button
+              class="w-[150px] h-[40px] rounded bg-[#FFA011] text-white mt-4"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+        <!-- The dialog for Special profile -->
+        <div
+          class="fixed z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[382px] md:w-[700px] bg-white rounded-md px-8 py-6 space-y-5 drop-shadow-lg hidden"
+          id="dialog"
+        >
+          <div class="flex justify-between items-center">
+            <p class="font-bold text-[24px]">Special profile</p>
+            <button id="close">
+              <img src="../assets/img/multi.svg" />
+            </button>
+          </div>
+          <div class="block md:flex justify-start items-end gap-4 mt-5">
+            <div class="w-full flex justify-start items-end gap-4">
+              <div>
+                <label
+                  for="regular-form-1"
+                  class="form-label font-semibold text-[16px]"
+                  >Select a profile</label
+                >
+                <input
+                  id="regular-form-1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Input text"
+                  value="XYZ SPECIAL PROFILE"
+                />
+              </div>
+              <div>
+                <label
+                  for="regular-form-1"
+                  class="form-label font-semibold text-[16px]"
+                  >Length</label
+                >
+                <input
+                  id="regular-form-1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Input text"
+                  value="0"
+                />
+              </div>
+            </div>
+            <div class="w-full mt-4 md:mt-0 flex justify-start items-end gap-4">
+              <div class="w-1/2">
+                <label class="form-label font-semibold text-[16px]"
+                  >Color</label
+                >
+                <select class="form-select" aria-label="Default select example">
+                  <option>white</option>
+                  <option>gray</option>
+                </select>
+              </div>
+              <div class="flex justify-between items-center gap-4">
+                <button
+                  class="w-2 h-9 px-4 bg-[#FFA011] rounded text-white text-2xl font-thin justify-center items-center flex"
+                >
+                  -
+                </button>
+                <p class="text-[20px] font-semibold">5</p>
+                <button
+                  class="w-2 h-9 px-4 bg-[#FFA011] rounded text-white text-2xl font-thin justify-center items-center flex"
+                >
+                  +
+                </button>
+                <img src="../assets/img/trash.svg" />
+              </div>
+            </div>
+          </div>
+          <button
+            class="w-[150px] h-[40px] rounded bg-[#FFA011] text-white mt-4"
+          >
+            Add special profile
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+<script>
+  var openButton = document.getElementById("open");
+  var openButton_2 = document.getElementById("open_2");
+  var openButton_3 = document.getElementById("open_3");
+  var openButton_4 = document.getElementById("open_4");
+  var openButton_AC = document.getElementById("open_AC");
+  var openButton_CP = document.getElementById("open_CP");
+  var dialog = document.getElementById("dialog");
+  var dialogAC = document.getElementById("dialog_AC");
+  var dialogCP = document.getElementById("dialog_CP");
+  var closeButton = document.getElementById("close");
+  var closeACButton = document.getElementById("close_AC");
+  var closeCPButton = document.getElementById("close_CP");
+  var cancelCPButton = document.getElementById("cancel_CP");
+  var cancelACButton = document.getElementById("cancel_AC");
+  var overlay = document.getElementById("overlay");
+
+  // show the overlay and the dialog
+  openButton.addEventListener("click", function () {
+    dialog.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+  });
+
+  // show the overlay and the dialog
+  openButton_2.addEventListener("click", function () {
+    dialog.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+  });
+
+  // show the overlay and the dialog
+  openButton_3.addEventListener("click", function () {
+    dialog.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+  });
+
+  // show the overlay and the dialog
+  openButton_4.addEventListener("click", function () {
+    dialog.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+  });
+
+  // show the overlay and the dialog
+  openButton_AC.addEventListener("click", function () {
+    dialogAC.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+  });
+
+  // show the overlay and the dialog
+  openButton_CP.addEventListener("click", function () {
+    dialogCP.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+  });
+
+  // hide the overlay and the dialog
+  closeButton.addEventListener("click", function () {
+    dialog.classList.add("hidden");
+    overlay.classList.add("hidden");
+  });
+
+  // hide the overlay and the dialog
+  closeACButton.addEventListener("click", function () {
+    dialogAC.classList.add("hidden");
+    overlay.classList.add("hidden");
+  });
+
+  // hide the overlay and the dialog
+  closeCPButton.addEventListener("click", function () {
+    dialogCP.classList.add("hidden");
+    overlay.classList.add("hidden");
+  });
+
+  // hide the overlay and the dialog
+  cancelCPButton.addEventListener("click", function () {
+    dialogCP.classList.add("hidden");
+    overlay.classList.add("hidden");
+  });
+
+  // hide the overlay and the dialog
+  cancelACButton.addEventListener("click", function () {
+    dialogAC.classList.add("hidden");
+    overlay.classList.add("hidden");
+  });
+</script>
